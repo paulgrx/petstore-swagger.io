@@ -2,10 +2,14 @@
 
 Aplikacja do zarządzania zwierzętami z wykorzystaniem Laravel i API Petstore do tworzenia, aktualizowania, pobierania i usuwania zwierząt.
 
-## Instalacja
 
-1. **Sklonuj repozytorium:**
+1. Install Laravel
+2. Run in termninal
 
-   ```bash
-   git clone https://your-repository-url.git
-   cd your-repository-folder
+```sh
+php artisan migrate
+```
+
+Pet url: http://127.0.0.1:8000/<br>
+Add Pet: url: http://127.0.0.1:8000/add-pet
+
